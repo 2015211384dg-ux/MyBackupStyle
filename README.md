@@ -52,7 +52,7 @@ py .\scripts\backup_incremental.py
 powershell -ExecutionPolicy Bypass -File .\scripts\mirror_monthly.ps1
 ```
 
-## 팁
+## 참고사항
 - NTFS 권한 보존 필요 시 미러링에 `/COPY:DATSO /SEC` 고려.
 - OST/PST/DB 등 잠긴 파일은 VSS 연동 권장.
 - 분기 1회 **복구 리허설**로 무결성 확인.
