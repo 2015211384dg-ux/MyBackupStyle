@@ -1,0 +1,10 @@
+{
+  "source": "C:/Data",
+  "dest": "D:/Backups/mirror",
+  "archive_root": "D:/Backups/archive",
+  "retention_days": 30,
+  "cleanup_archive_older_days": 90,
+  "log_dir": "C:/BackupSuite/logs",
+  "excludes": ["Temp", ".cache"],
+  "exclude_ext": [".tmp", ".log", ".bak"]
+}
